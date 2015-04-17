@@ -36,7 +36,7 @@ $(document).ready(function(){
     setInterval(update, 1000);
     setInterval(flash, 500);
 
-    $('body').click(function(){
+    $('.container').click(function(){
     	$('.qr').toggleClass('hidden');
     	$('.non-qr-stuff').toggleClass('hidden');
     });
